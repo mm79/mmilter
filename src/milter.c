@@ -803,9 +803,6 @@ main(int argc, char *argv[])
 	int islocal = 0;
 	mode_t msk;
 
-	if (debug)
-		openlog("mmilter", LOG_PID, LOG_MAIL);
-
 	mmilter_opts(argc, argv);
 
 	if ((pw = getpwnam(dropuser)) == NULL) {
