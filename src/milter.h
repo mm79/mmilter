@@ -50,7 +50,7 @@ struct mmctx {
 extern int debug;
 
 /* milter.c */
-inline void msg(int, const char *, ...);
+void msg(int, const char *, ...);
 
 /* spamd.c */
 int spamd_getfd(const char *, in_port_t);

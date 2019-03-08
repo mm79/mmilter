@@ -773,7 +773,7 @@ usage(char *name)
         exit(0);
 }
 
-inline void
+void
 msg(int priority, const char *fmt, ...)
 {
 	char msg[2048];
